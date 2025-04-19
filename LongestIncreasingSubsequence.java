@@ -2,7 +2,7 @@ import java.util.*;
 public class LongestIncreasingSubsequence {
   public static int lcs( int arr1[], int arr2[]){
          
-        int n = arr1.lrngth;
+        int n = arr1.length;
         int m = arr2.length;
       for( int i=0 ; i< n+1; i++){
           for( int j=0; j<m+1; j++) {
