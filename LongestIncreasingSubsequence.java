@@ -1,9 +1,26 @@
 import java.util.*;
 public class LongestIncreasingSubsequence {
+  
+  
+    public static int lis( int arr1[]){
+      HashSet<Integer> set = new HashSet<>();
+      for( int i=0 ; i< arr1.length;i++){
+          set.add(arr1[i]);
+      }
+      int arr2[] = new int[set.size()];
+      int i=0;
+      for( int num: set){
+        arr2[i] = num;
+        i++;
+      }
+      Arrays.sort(arr2);// assending order 
+      return  lcs(arr1,arr2);
+    }
   public static int lcs( int arr1[], int arr2[]){
          
         int n = arr1.length;
         int m = arr2.length;
+        int dp[][] = new int [n+1][m+1];
       for( int i=0 ; i< n+1; i++){
           for( int j=0; j<m+1; j++) {
             if(i==0 || j==0){
@@ -27,27 +44,9 @@ public class LongestIncreasingSubsequence {
       }
     return dp[n][m];
   }
-  
-  }
-  
-  
-    public static int lis( int arr1[]){
-      HashSet<Integer> set = new HashSet<>();
-      for( int i=0 ; i< arr.lrngth;i++){
-          set.add(arr1[i]);
-      }
-      int arr2[] = new arr[set.size()];
-      int i=0;
-      for( int num: set){
-        arr2[i] = num;
-        i++;
-      }
-      Arrays.sort(arr2);// assending order 
-      return lcs( arr1, arr2);
-    }
-  
   public static void main(String[] args){ //here is the main method 
     int arr1[] = {50,3,10,7,40,80};
+    System.out.println(" ans is "+ lis(arr1));
     
   }
 }
