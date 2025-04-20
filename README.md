@@ -19,7 +19,7 @@ We’ll build a table with str1 as rows and str2 as columns.
 
                                                   i,j  ""	e	x	e	c	u	t	i	o	n
                                                  ""     0	1	2	3	4	5	6	7	8	9
-                                                  i   	1	1	2	3	4	5	6	6	7	8
+                                                  i   1	1	2	3	4	5	6	6	7	8
                                                   n	    2	2	2	3	4	5	6	7	7	7
                                                   t	    3	3	3	3	4	5	5	6	7	8
                                                   e	    4	3	4	3	4	5	6	6	7	8
