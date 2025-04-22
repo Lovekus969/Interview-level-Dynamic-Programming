@@ -8,7 +8,7 @@ This repository contains a clean and efficient solution for finding the **Longes
 - 🧠 Dynamic Programming implementation
 - 🧼 Clean code with clear comments
 - ⚙️ Optimized for clarity and readability
-
+we will focus on edit distance 
 ## 💥 Why This Matters?
 Because problem-solving is not just about code — it's about **discipline, clarity, and consistency**.  
 Every line here is a step toward mastering algorithms that power real-world tech.
