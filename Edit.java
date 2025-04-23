@@ -22,7 +22,8 @@ public class Edit {
                 }
             }
         }
-
+                                //"If characters are same → take the diagonal (up-left)."
+                                //"If not same → take min of (left, up, diagonal) + 1."
         return dp[n][m];
     }
 
